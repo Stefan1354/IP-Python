@@ -1,5 +1,5 @@
 '''
-Da se sastavi programa, koqto vavezhda n na broj chisla ot
+Da se sastavi programa, koqto vavejda n na broj chisla ot
 klaviaturata i namira sumata samo na onezi ot tqh, koito
 sa po golemi ot predvaritelno zadadeno chislo k.
 '''

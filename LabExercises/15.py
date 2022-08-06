@@ -1,7 +1,7 @@
-'''Da se sastavi programa, koqto vavezhda n na broi chisla ot
-klaviaturata i namira srednoaritmeticnoto samo na onezi ot
-tqh, koito sa po-malki ot predvaritelno zadadeno chislo u
-i po-golemi ot predvaritelno zadadeno cislo v(u>v).'''
+'''Da se sastavi programa, koqto vavejda n na broi chisla ot
+klaviaturata i namira srednoaritmetichnoto samo na onezi ot
+tqh, koito sa po-malki ot predvaritelno zadadenoto chislo u
+i po-golemi ot predvaritelno zadadenoto chislo v(u>v).'''
 
 n = int(input("Enter n: "))
 u = int(input("Enter u: "))

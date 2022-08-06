@@ -1,4 +1,4 @@
-'''Da se sastavi programa, koqto vavezhda n na broi chisla
+'''Da se sastavi programa, koqto vavejda n na broi chisla
 ot klaviaturata i namira sumata samo na onezi ot tqh, 
 koito sa otricatelni.'''
 

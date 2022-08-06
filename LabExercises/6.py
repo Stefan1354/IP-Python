@@ -10,13 +10,15 @@
 # **
 # *
 
-# n=int(input("Enter n:"))
-# for i in range (1,n+1):
-#     print('*'*i)
-# for y in range(n-1,0,-1):
-#     print('*'*y)
-
-for i in range(1,6):
+n = int(input("Enter n:"))
+for i in range (1, n+1):
     print('*'*i)
-for y in range(4,0,-1):
+for y in range(n-1, 0, -1):
+    print('*'*y)
+    
+# second way
+
+for i in range(1, 6):
+    print('*'*i)
+for y in range(4, 0, -1):
     print('*'*y)

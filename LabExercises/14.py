@@ -1,7 +1,7 @@
-'''Da se sastavi programa, koqto vavezhda n na broi chisla
-ot klaviaturata i namira srednoaritmeticnoto samo na
+'''Da se sastavi programa, koqto vavejda n na broi chisla
+ot klaviaturata i namira srednoaritmetichnoto samo na
 onezi ot tqh, koito sa po-golemi ot predvaritelno
-zadadeno chislo k.'''
+zadadenoto chislo k.'''
 
 n = int(input("Enter n:"))
 k = int(input("Enter k:"))

@@ -1,5 +1,5 @@
 '''Da se sastavi programa, koqto obrshta cifrite
-na dadeno cislo:'''
+na dadeno chislo:'''
 # primer: 76542  da se izvede 24567
 
 num = input("Enter num: ")

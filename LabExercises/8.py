@@ -1,7 +1,7 @@
 '''Da se sastavi programa, koqto vavejda ot klaviaturata
-n chisla i sumira pootdelno vsichki cetni i necetni
-cisla. Programata da izvezda obshtata suma
-i za dvata sluchaja.'''
+n chisla i sumira pootdelno vsichki chetni i nechetni
+chisla. Programata da izvezda obshtata suma
+i za dvata sluchaq.'''
 
 n = int(input("Enter n: "))
 sum_even = 0

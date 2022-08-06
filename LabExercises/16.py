@@ -1,4 +1,4 @@
-'''Da se sastavi programa, koqto vavezda n na broi chisla ot
+'''Da se sastavi programa, koqto vavejda n na broi chisla ot
 klaviaturata i namira srednoaritmetichnata stoinost na 
 vsicki chetni chisla i proizvedenieto na vsichki nechetni
 chisla.'''

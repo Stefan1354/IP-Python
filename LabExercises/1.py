@@ -9,5 +9,5 @@ while brojac<1001:
 # second way
 
 for i in range(1, 1000):
-    if i%10 == 0:
+    if i%10==0:
         print(i-3)

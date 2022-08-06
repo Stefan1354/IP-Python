@@ -1,7 +1,7 @@
 '''Da se sastavi programa, koqto vavezda n na broi chisla ot
-klaviaturata i namira srednoaritmeticnata stoinost na 
-vsicki cetni cisla i proizvedenieto na vsichki necetni
-cisla.'''
+klaviaturata i namira srednoaritmetichnata stoinost na 
+vsicki chetni chisla i proizvedenieto na vsichki nechetni
+chisla.'''
 
 n = int(input("Enter n: "))
 s = 0

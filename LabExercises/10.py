@@ -1,4 +1,4 @@
-'''Da se sastavi programa, koqto vavezda n chisla(n<=10) 
+'''Da se sastavi programa, koqto vavejda n chisla(n<=10) 
 na broi realni chisla po-malki ot 1000 i namira
 tqhnoto proizvedenie.'''
 

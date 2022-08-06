@@ -4,13 +4,13 @@ cisla. Programata da izvezda obshtata suma
 i za dvata sluchaja.'''
 
 n = int(input("Enter n: "))
-sum_prime = 0
-sum_notprime = 0
+sum_even = 0
+sum_odd = 0
 for numbers in range (n):
     numbers = int(input("Enter numbers: "))
     if (numbers%2)==0:
-        sum_prime+=numbers
+        sum_even+=numbers
     else:
-        sum_notprime+=numbers
-print("Sum of prime numbers is:", sum_prime)
-print("Sum of not prime numbers is:", sum_notprime)
+        sum_odd+=numbers
+print("Sum of even numbers is:", sum_even)
+print("Sum of odd numbers is:", sum_odd)

@@ -1,13 +1,13 @@
-'''Da se sastavi programa, koqto vavezda ot klaviaturata
+'''Da se sastavi programa, koqto vavejda ot klaviaturata
 n chisla i sumira pootdelno vsichki cetni i necetni
 cisla. Programata da izvezda obshtata suma
 i za dvata sluchaja.'''
 
-n=int(input("Enter n:"))
-sum_prime=0
-sum_notprime=0
+n = int(input("Enter n: "))
+sum_prime = 0
+sum_notprime = 0
 for numbers in range (n):
-    numbers=int(input("Enter numbers:"))
+    numbers = int(input("Enter numbers: "))
     if (numbers%2)==0:
         sum_prime+=numbers
     else:

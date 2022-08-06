@@ -1,4 +1,4 @@
-'''Da se sastavi programa, koqto izvezda vsicki prosti cisla
+'''Da se sastavi programa, koqto izvezda vsichki prosti chisla
 v diapazona ot 25 do 50.'''
 
 for i in range(25, 51):

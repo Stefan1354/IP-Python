@@ -1,7 +1,7 @@
-'''Da se sastavi programa, koqto vavezda n na broj chisla
-ot klaviaturatan i namira sumata samo na onezi ot tqh, 
-koito sa po-malki ot predvaritelno zadadeno chislo u 
-i po-golemi ot predvarielno zadadenoto chislo v.'''
+'''Da se sastavi programa, koqto vavejda n na broj chisla
+ot klaviaturata i namira sumata samo na onezi ot tqh, 
+koito sa po-malki ot predvaritelno zadadenoto chislo u 
+i po-golemi ot predvaritelno zadadenoto chislo v.'''
 
 n = int(input("Enter n: "))
 u = int(input("Enter u: "))

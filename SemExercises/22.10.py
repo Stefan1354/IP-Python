@@ -18,7 +18,7 @@ else:
     print("Nqma stipendiq, slab uspeh")
 
 
-'''2.Napisete programa, koqto izcislqva liceto S i obikolkata P
+'''2.Napishete programa, koqto izcislqva liceto S i obikolkata P
 na geom.figura, kato purvo se izbira vida na figurata:
 kvadrat, pravougulnik, pravougulen triugulnik, sled koeto
 vavejdate stoinosti za stranite na figurata.'''

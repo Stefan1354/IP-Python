@@ -43,8 +43,8 @@ elif vid=="pravougulen triugulnik":
        a=int(input("strana: "))
        b=int(input("strana: "))
        c=int(input("strana: "))
-       S=a*b/2
-       P=a+b+c
+       S = a*b/2
+       P = a+b+c
        print("Liceto e:", S)
        print("Obikolkata e:", P)
 else:

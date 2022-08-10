@@ -1,5 +1,5 @@
-#kortezi=tuples
-#operacii pri kortezi
+#korteji=tuples
+#operacii pri korteji
 k=(7,5,3,6,1)
 print(k[0]) #7
 print(k[2:3]) #(3,)

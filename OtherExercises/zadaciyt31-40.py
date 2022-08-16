@@ -78,7 +78,6 @@ print("Zbir dvocifrenih je", zbir)
 '''35.Dat je cetvorocifren broj.Ispisati kolicnik najmanje
 i zbira ostale tri cifre.'''
 
-
 n = int(input("Unesi cetvorocifreni broj "))
 a = n//1000    #cifra hiljada
 b = n//100%10  #cifra stotina
@@ -95,6 +94,7 @@ zbir = a + b + c + d - najc
 print("Kolicnik je", najc/zbir)
 
 #2.nacin
+
 n = int(input("Unesite cetvorocifreni broj: "))
 a = n//1000
 b = n//100%10
@@ -123,7 +123,7 @@ print("Slucajan broj {}   Najveci broj {}".format(n,broj))
 ispisuje broj dana u tom mesecu.Smatrati da godina nije
 prestupna.Smatrati da je mesec ispravno unet(1-12).'''
 
-m=int(input("Unesite redni broj meseca "))
+m = int(input("Unesite redni broj meseca: "))
 if m==1 or m==3 or m==5 or m==7 or m==8 or m==10 or m==12:
     broj_dana=31
 elif m==4 or m==6 or m==9 or m==11:
@@ -174,6 +174,7 @@ else:
         g = g + 1
     
 print("Naredni datum je ", d,'.',m,'.',g)
+
 
 '''40.Dat je dan(dan,mesec,godina).Ispisati datum prethodnog dana.'''
 

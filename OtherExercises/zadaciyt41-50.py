@@ -21,6 +21,7 @@ else:
             print("Datumi su isti")
 
 #2.nacin
+
 d1,m1,g1 = map(int,input("Unesite 1. datum: ").split('.'))
 d2,m2,g2 = map(int,input("Unesite 2.datum: ").split('.'))
   #15.02.2020

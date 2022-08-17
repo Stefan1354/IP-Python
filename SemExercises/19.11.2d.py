@@ -96,7 +96,7 @@ def perfect_number(n):
         if n%x==0:
             sum+=x
     return sum==n
-n=int(input("Enter n: "))
+n = int(input("Enter n: "))
 print(perfect_number(n))
 
 #9. Напишете функция,  която получава като аргумент числов

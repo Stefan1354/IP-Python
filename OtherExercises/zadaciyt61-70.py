@@ -62,7 +62,7 @@ def Ispisi():
         n = n - 1
 Ispisi()
 
-'''65.Napisati program,koji koristeci funkciju prost,
+'''65.Napisati program, koji koristeci funkciju prost,
 izracunava sumu svih dvocifrenih prostih brojeva.'''
 
 '''1 nacin'''

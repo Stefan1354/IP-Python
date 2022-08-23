@@ -12,7 +12,7 @@ class Person:
         self.family = family
         self.age = age
         self.nationality = nationality
-MyPerson=Person("Stefan","Stoilkov","Bulgarian",19)
+MyPerson = Person("Stefan","Stoilkov","Bulgarian",19)
 print(MyPerson)
 print(MyPerson.name)
 print(MyPerson.family)
@@ -32,7 +32,7 @@ class Person:
         self.family = family
         self.age = age
         self.nationality = nationality
-p1 = Person(name=input("Enter name: "), family=input("Enter family: "), age=input("Enter age: "), nationality=input("Enter nationality: "))
+p1 = Person(name = input("Enter name: "), family = input("Enter family: "), age = input("Enter age: "), nationality = input("Enter nationality: "))
 print(p1.name, p1.family, p1.age, p1.nationality)   #printira Stefan Stoilkov 19 Bulgarian
 
 

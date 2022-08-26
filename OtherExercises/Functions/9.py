@@ -1,4 +1,4 @@
-#9.	Съставете клас на Python с името Student с две свойства: student_id и student_name. Добавете ново свойство student_class. Създайте функция за
+#9.Съставете клас на Python с името Student с две свойства: student_id и student_name. Добавете ново свойство student_class. Създайте функция за
 #извеждане на цялото свойство и техните стойности в класа Student.
 
 class Student:
@@ -15,4 +15,4 @@ class Student:
 student1 = Student(1212121, "Stefan")
 student1.add_class(43)
 student1.Print()                         #printira
-                                           Stefan 1212121 43
+                                         #Stefan 1212121 43

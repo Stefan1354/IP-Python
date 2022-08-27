@@ -15,7 +15,6 @@
 #TypeError: Can't convert 'int' object to str implicity
 
 
-
 '''try:
     print(x)
 except:
@@ -34,7 +33,7 @@ except NameError:
 except:
     print("Something else went wrong")'''
 
-#klucova duma else
+#kluchova duma else
 '''try:
     print("Hello")
 except:
@@ -42,7 +41,7 @@ except:
 else:
     print("Nothing went wrong")'''
 
-#klucova duma finally
+#kluchova duma finally
 '''try:
     print(x)
 except:
@@ -50,7 +49,7 @@ except:
 finally:
     print("The 'try except' is finished")'''
 
-#zatvarqne na obektite i osvobozdavane na resursite
+#zatvarqne na obektite i osvobojdavane na resursite
 '''try:
     f=open('demofile.txt')
     f.write("Lorem Ipsum")
@@ -59,7 +58,7 @@ except:
 finally:
     f.close()'''
 
-#vavezdane na cqlo schislo kato vhod ot strana na potrebitelq
+#vavejdane na cqlo schislo kato vhod ot strana na potrebitelq
 '''while True:
     try:
         x=int(input("Enter x "))
@@ -70,7 +69,7 @@ finally:
 except(RuntimeError, TypeError, NameError):
     pass'''
 
-#situaciq na izklucenie pri funkcii
+#situaciq na izkluchenie pri funkcii
 '''def this_files():
     x=1/0
 try:
@@ -79,7 +78,7 @@ except ZeroDivisionError as err:
     print("Handling run-time error:", err)
 #Handling run-time error: division by zero'''
 
-#klucova duma raise
+#kluchova duma raise
 '''x=-1
 if x<0:
 raise Exception("Sorry, no numbers below zero")'''
@@ -89,7 +88,7 @@ raise Exception("Sorry, no numbers below zero")'''
 if not type(x) is int:
 raise TypeError("Only integers are allowed")'''
 
-#greshka, vurnat ot interpretatora pri generirane na situaciq HiThere:
+#greshka, vurnata ot interpretatora pri generirane na situaciq HiThere:
 '''raise NameError('HiThere')
 Traceback (most recent call last):
 NameError: HiThere'''

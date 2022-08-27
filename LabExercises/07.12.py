@@ -12,7 +12,7 @@
 
 
 #1.
-'''class Person:
+class Person:
     def __init__(self, name, family, nationality, age):
         self.name = name
         self.family = family
@@ -29,9 +29,7 @@ class Student(Person):
         self.year_of_study = year_of_study
 
     def print(self):
-        print(
-            str.format("{} {} - {} years old - {} : {} year:{}\n\n", self.name, self.family, self.age, self.nationality,
-                       self.university, self.year_of_study))
+        print(str.format("{} {} - {} years old - {} : {} year:{}\n\n", self.name, self.family, self.age, self.nationality, self.university, self.year_of_study))
 
 class Lecturer(Person):
     def __init__(self, name, family, nationality, age, university, experience):
@@ -40,9 +38,7 @@ class Lecturer(Person):
         self.experience = experience
 
     def print(self):
-        print(
-            str.format("{} {} - {} years old - {} : {} year:{}\n\n", self.name, self.family, self.age, self.nationality,
-                       self.university, self.experience))
+        print(str.format("{} {} - {} years old - {} : {} year:{}\n\n", self.name, self.family, self.age, self.nationality, self.university, self.experience))
 
 
 Person1 = Person("Ivan", "Vasilev", "Bulgarian", 19)
@@ -50,15 +46,12 @@ Person2 = Student("Petar", "Stoyanov", "Bulgarian", 21, "Technical University", 
 Person3 = Lecturer("Marko", "Minkov", "Bulgarian", 30, "Sofia University St. Kliment Ohridski", 7)
 Person1.print()
 Person2.print()
-Person3.print()'''
-
-
-
+Person3.print()
 
 #2.Създайте клас който представя студентите във вашата група. Напишете метод който по добавено име добавя само
-#студенти които не са записани в списъка от студенти.Напишете метод remove за триене на студентите със слаб успех. 
+#студенти които не са записани в списъка от студенти. Напишете метод remove за триене на студентите със слаб успех. 
 #Напишете метод за намиране на среден успех на групата.
-# part 2 метод за намиране на min/max grade - 2methods и метод който връща данните за студентите с еднакъв успех
+#part 2 метод за намиране на min/max grade - 2methods и метод който връща данните за студентите с еднакъв успех
 
 class Student():
     def __init__(self, f_num, name, family, grade):
@@ -167,5 +160,3 @@ print()  #163 do 166 red se mora napise da bi site printiralo s golemi bukvi
 
 for st in gr43a.sort_id():
     print(st)
-
-

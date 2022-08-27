@@ -1,35 +1,6 @@
-# '''1.Напишете код на метод който приема като параметър име на текстов файл, 
-# прочита съдържанието на файла и го връща като стринг.'''
-
-# def readFromFile(fileName):
-#     f=open(fileName, "r")
-#     print(f.read())
-
-# try:
-#     f=open("file.txt","x")
-# except FileExistsError:
-#     f=open("file.txt","w")
-# f.write("Test file!")
-# f.close()
-
-# readFromFile("file.txt")
-
-#2 primer
-# def read_txt(filepath):
-#     try:
-#         with open(filepath) as file:
-#             file_data=file.read()
-#             return file_data
-#     except FileNotFoundError:
-#         print("This file does not exist!")
-# filepath=input("What is the path of the file? ")
-# print(read_txt(filepath))
-
-# '''2.Напишете метод за намиране на минимален успех на групата. 
-# Напишете метод за намиране на максимален успех на групата. 
-# Напишете метод който връща данните за студентите които са с един и същ успех.'''
-#BITNA ZADACA!!!!!!!!!!!!
-
+'''1.Напишете метод за намиране на минимален успех на групата. 
+Напишете метод за намиране на максимален успех на групата. 
+Напишете метод който връща данните за студентите които са с един и същ успех.'''
 
 class Student():
     def __init__(self, f_num, name, family, grade):

@@ -4,27 +4,27 @@
 #Да се изведе максималното число измежду всички числа. Да се намери средноаритметичното на числата кратни на седем,
 #резултата да се закръгли до втория знак след десетичната запетая.
 
-# print("Enter the word 'stop' to stop the loop")
-# li=[]
-# li_dev_by_7=[]
+print("Enter the word 'stop' to stop the loop")
+li = []
+li_dev_by_7 = []
 
-# while True:
-#     input_command=input("enter command or element ")
-#     if input_command=="stop":
-#         break
-#     elem=int(input_command)
-#     li.append(elem)
-#     if elem%7==0:
-#         li_dev_by_7.append(elem)
-# print(li)
-# print(li_dev_by_7)
-# print(f"{(len(li_dev_by_7)/len(li))*100:.2f}% ot chislata se delqt na 7")
+while True:
+    input_command = input("enter command or element ")
+    if input_command=="stop":
+        break
+    elem = int(input_command)
+    li.append(elem)
+    if elem%7==0:
+        li_dev_by_7.append(elem)
+print(li)
+print(li_dev_by_7)
+print(f"{(len(li_dev_by_7)/len(li))*100:.2f}% ot chislata se delqt na 7")
 
-# print(f"Sumata na chislata koito ne sa kratni na 7 e {sum(li)-sum(li_dev_by_7)}")
+print(f"Sumata na chislata koito ne sa kratni na 7 e {sum(li)-sum(li_dev_by_7)}")
 
-# print(f"Max={max(li)}")
+print(f"Max={max(li)}")
 
-# print(f"Sredno na chislata kratni na 7 e {sum(li_dev_by_7)/len(li_dev_by_7):.2f}")
+print(f"Sredno na chislata kratni na 7 e {sum(li_dev_by_7)/len(li_dev_by_7):.2f}")
 
 #2.Да се напише програма, която реализира играта „познай числото“ : потребителя въвежда цяло число в интервала от
 #1 до 10. Програмата също генерира едно случайно число. Ако потребителя е въвел същото число ,което е генерирано от
@@ -34,47 +34,46 @@
 #потребителя, както и броя на познатите числа.
 
 
-# import random
-# br=random.randint(1,10)
+import random
+br = random.randint(1,10)
 
-# for i in range(10,0,-1):
-#     n=int(input("Enter n: "))
+for i in range(10, 0, -1):
+    n = int(input("Enter n: "))
     
-#     if n==br:
-#         print("pozna chisloto")
-#         break
+    if n==br:
+        print("pozna chisloto")
+        break
 
-#     if n!=br:
-#         print("Suzelqvam, ne pozna")
-#         print(f"Imas oshte {i-1} opita")
+    if n!=br:
+        print("Suzelqvam, ne pozna")
+        print(f"Imas oshte {i-1} opita")
 
-# print(f"The computer imagined the number {br}.")
+print(f"The computer imagined the number {br}.")
 
 
 '''2 nacin'''
-# import random, sys
+import random, sys
 
-# count, trys = 0, 0
-# while True:
-#     rand_num = random.randint(1, 10)
-#     while True:
-#         print(rand_num)
-#         ur_num = int(input("Guess the number: "))
-#         if rand_num > ur_num:
-#             print('WRONG!')
-#             trys += 1
-#         elif ur_num > rand_num:
-#             print('WRONG!')
-#             trys += 1
-#         else:
-#             print("You guessed the number: ", rand_num)
-#             count += 1
-#             break
+count, trys = 0, 0
+while True:
+    rand_num = random.randint(1, 10)
+    while True:
+        print(rand_num)
+        ur_num = int(input("Guess the number: "))
+        if rand_num > ur_num:
+            print('WRONG!')
+            trys += 1
+        elif ur_num > rand_num:
+            print('WRONG!')
+            trys += 1
+        else:
+            print("You guessed the number: ", rand_num)
+            count += 1
+            break
 
-#         if ur_num == 0:
-#             print("Wins: ", count, "Trys", trys - 1)
-#             sys.exit()
-
+        if ur_num == 0:
+            print("Wins: ", count, "Trys", trys - 1)
+            sys.exit()
 
 
 #3.Сезона за каране на ски е вече тук. Сформира се голяма група приятели, които възнамеряват да отидат на ски 
@@ -87,17 +86,17 @@
 #Към крайната сума се начислява допълнително 20% ДДС. Да се напише програма,  която изчислява общата сумата, която скиорите трябва да заплатят.
 #Забележка: Един скиор съвсем спокойно може да закупи повече от 1 яке, каска или  комплект обувки.
 
-# count=int(input("broq na skiorite: "))
-# sum=0
+count = int(input("broq na skiorite: "))
+sum = 0
 
-# for i in range(count):
-#     jacket=int(input("jackets: "))
-#     helmet=int(input("helmet: "))
-#     ski=int(input("ski: "))
+for i in range(count):
+    jacket = int(input("jackets: "))
+    helmet = int(input("helmet: "))
+    ski = int(input("ski: "))
 
-#     sum+=jacket*120+helmet*75+ski*299.90
+    sum += jacket*120 + helmet*75 + ski*299.90
 
-# print("Sumata e ",round((sum*20/100 + sum), 2))
+print("Sumata e ",round((sum*20/100 + sum), 2))
 
 
 #4.Дефинирайте  клас Phone със следните полета : марка, модел, цена, количество. В класа е дефиниран и метод ,който принтира стойностите на полетата.
@@ -106,49 +105,49 @@
 #Намерете средноаритметичното от цените на всички телефони в списъка.
 #Изведете списък на всички телефони от дадена марка ( въвежда се от клавиатурата ).
 
-# class Phone:
-#     def __init__(self, brand, model, price, quantity):
-#         self.brand = brand
-#         self.model = model
-#         self.price = int(price)
-#         self.quantity = int(quantity)
+class Phone:
+    def __init__(self, brand, model, price, quantity):
+        self.brand = brand
+        self.model = model
+        self.price = int(price)
+        self.quantity = int(quantity)
 
-#     def __str__(self):
-#         return str.format("{} {}: {}, Quantity: {}", self.brand, self.model, self.price, self.quantity)
-
-
-# def get_phones(size):
-#     res = list()
-#     for i in range(size):
-#         res.append(Phone(input("Brand: "), input("Model: "), input("price: "), input("Quantity: ")))
-#     return res
+    def __str__(self):
+        return str.format("{} {}: {}, Quantity: {}", self.brand, self.model, self.price, self.quantity)
 
 
-# def get_max_pr(ph_list: list):
-#     ph_list.sort(key=lambda el: el.price, reverse=True)
-#     return ph_list[0]
+def get_phones(size):
+    res = list()
+    for i in range(size):
+        res.append(Phone(input("Brand: "), input("Model: "), input("price: "), input("Quantity: ")))
+    return res
 
 
-# def get_arg_price(ph_list: list):
-#     count, total, = 0, 0
-#     for i in ph_list:
-#         count += i.quantity
-#         total += i.price * i.quantity
-#     return total / count
+def get_max_pr(ph_list: list):
+    ph_list.sort(key=lambda el: el.price, reverse=True)
+    return ph_list[0]
 
 
-# def get_brand(ph_list: list, brand):
-#     res = list()
-#     for i in ph_list:
-#         if i.brand == brand:
-#             res.append(i)
-#     return res
+def get_arg_price(ph_list: list):
+    count, total, = 0, 0
+    for i in ph_list:
+        count += i.quantity
+        total += i.price * i.quantity
+    return total / count
 
 
-# my_list = get_phones(2)
-# print(get_max_pr(my_list))
-# print(get_arg_price(my_list))
-# print(get_brand(my_list, input("Brand: ")))
+def get_brand(ph_list: list, brand):
+    res = list()
+    for i in ph_list:
+        if i.brand == brand:
+            res.append(i)
+    return res
+
+
+my_list = get_phones(2)
+print(get_max_pr(my_list))
+print(get_arg_price(my_list))
+print(get_brand(my_list, input("Brand: ")))
 
 
 '''2 nacin'''
@@ -206,7 +205,7 @@ for phone in phones:
 #Дефинирайте функция Search(language) за търсене на  студент по език .
 #Дефинирайте функция Display() за принтиране на информация за всички студенти .
 
-'''import pandas
+import pandas
 
 class Student:
     def __init__(self, id, name, lang):
@@ -247,6 +246,4 @@ add_student(128, 'Giorno', 'C++')
 
 search_student('Python')
 
-display()'''
-
-
+display()

@@ -4,7 +4,7 @@
      #Input a day [1-31]: 23                                                  
      #The next date is [yyyy-mm-dd] 2016-8-24 
 
-'''year = int(input("Input a year: "))
+year = int(input("Input a year: "))
 
 if (year % 400 == 0):
     leap_year = True
@@ -43,13 +43,14 @@ elif day == month_length:
 if 1 <= day <= month_length and 1 <= month <= 12:
     print("The next date is [yyyy-mm-dd] %d-%d-%d." % (year, month, day))
 else:
-    print('Invalid date')'''
+    print('Invalid date')
+    
 
 #2.Да се състави програма на Python, която дефинира клас Travel с полета: ID, Destination, Flight, Price. Да се добави
 #метод „Reduce“, чрез който всички стойности от полето Price по-големи от 200 да бъдат заменени със стойност по-ниска
 #с 10%. Да се добави и методът Print, чрез който да се отпечатят ID, Destination, Flight, Price.'''
 
-'''class Travel:
+class Travel:
     def __init__(self, ID, Destination, Flight, Price):
         self.ID = ID
         self.Destination = Destination
@@ -71,39 +72,30 @@ bg_to_sb = Travel(ID = "1235BG-SB", Destination = "SB", Flight = "BG-TO-SB", Pri
 bg_to_sb.Print()
 bg_to_sb.Reduce()
 print("---------")
-bg_to_sb.Print()'''
+bg_to_sb.Print()
 
 
 '''2 nacin'''
 
-# class Travel:
-#     def __init__(self, id, dest: str, flight, price: float):
-#         self.id = id
-#         self.dest = dest
-#         self.flight = flight
-#         self.price = price
+class Travel:
+    def __init__(self, id, dest: str, flight, price: float):
+        self.id = id
+        self.dest = dest
+        self.flight = flight
+        self.price = price
 
-#     def reduce(self):
-#         if self.price > 200:
-#             self.price = round(self.price - self.price * 10 / 100, 2)
+    def reduce(self):
+        if self.price > 200:
+            self.price = round(self.price - self.price * 10 / 100, 2)
 
-#     def print(self):
-#         print(str.format("ID {} - {}\n Flight: {}\n Price: {} \n", self.id, self.dest, self.flight, self.price))
-
-
-# tr_list = [Travel("12B31", "Hamburg", "2:33", 176), Travel("41C7V", "Milan", "1:47", 88), Travel("77ZS2D", "New York", "4:18", 215)]
-
-# for tr in tr_list:
-#     tr.reduce()
-
-# for tr in tr_list:
-#     tr.print()
+    def print(self):
+        print(str.format("ID {} - {}\n Flight: {}\n Price: {} \n", self.id, self.dest, self.flight, self.price))
 
 
+tr_list = [Travel("12B31", "Hamburg", "2:33", 176), Travel("41C7V", "Milan", "1:47", 88), Travel("77ZS2D", "New York", "4:18", 215)]
 
+for tr in tr_list:
+    tr.reduce()
 
-
-
-
-
-
+for tr in tr_list:
+    tr.print()

@@ -1,6 +1,6 @@
-'''1.Da se sastavi programa koqto realizira prilozeniq za izcislqvane i izvezdane
+'''1.Da se sastavi programa koqto realizira prilozeniq za izcislqvane i izvejdane
 licata ne geom.figuri:triugulnik, kvadrat, pravougulnik, romb, trapec, kato
-stranite i visocinite na figurite se vavezdat ot klaviaturata.'''
+stranite i visochinite na figurite se vavejdat ot klaviaturata.'''
 
 from triangle import triangle 
 from square import square 
@@ -13,5 +13,3 @@ square()
 rectangle()
 romb()
 trapezoid()
-
-    

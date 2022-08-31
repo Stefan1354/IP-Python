@@ -1,12 +1,17 @@
+'''Да се състави програма на Python, която дефинира клас "GSM mobile devices", с полета: налично количество, единична цена, година на производство, производител, модел на мобилни устройства. Да се състави: 
+- метод, който сортира моделите мобилни устройства по налично количество в нарастващ ред;
+- метод, който премества всички модели мобилни устройства, произведени от един и същ производител в списък, записан в JSON файл.
+
+
 import json
 
 class GSM_Mobile_Devices:
     def __init__(self, quantity, price, year, make, model):
-        self.quantity=quantity
-        self.price=price
-        self.year=year
-        self.make=make
-        self.model=model
+        self.quantity = quantity
+        self.price = price
+        self.year = year
+        self.make = make
+        self.model = model
 
     def __str__(self):
         return f"{self.make} model {self.model} price {self.price} and {self.quantity} quantity"

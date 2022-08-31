@@ -5,7 +5,7 @@
    # - Във втория списък да се запишат тези числа от въведените от потребителя, които са кратни на 7 и са нечетни. Сортирайте
    #списъка в низходящ ред. Намерете произведението на елемента с минимална и елемента с максимална стойност от този списък.
 
-'''l = []
+l = []
 
 while True:
     s = int(input("Enter number "))
@@ -35,14 +35,16 @@ l2_min = min(l2)
 l2_max = max(l2)
 
 M = l2_min  * l2_max
-print(f"l2_min * l2_max = {l2_min} * {l2_max} = {M}")'''
+print(f"l2_min * l2_max = {l2_min} * {l2_max} = {M}")
 
 
 #2.Да се състави програма на Python за количка на електронен магазин с включени продукти: Рутер Xiaomi Mi Router 4C,
 #Рутер Xiaomi Router 4A, Рутер TP-Link Archer C54 AC 1200, Рутер TP-Link Archer C80 AC1900 с полета: производител, 
 #код на продукта, единична цена, количество. Да се състави:
+#метод за добавяне на нови продукти в количката
+#метод за извеждане на крайната цена за запплащане с включено ДДС и цена на доставка в текстов файл.
 
-'''class Router:
+class Router:
     def __init__(self, brand, model, price, quantity):
         self.brand = brand
         self.model = model
@@ -80,4 +82,4 @@ cart.add_to_cart("Xiaomi", "Mi Router 4A", 20, 3)
 cart.add_to_cart("TP Link", "Archer C54", 15, 3)
 cart.add_to_cart("TP Link", "Archer C80 AC1900", 30, 2)
 
-cart.write_price()'''
+cart.write_price()

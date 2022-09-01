@@ -3,11 +3,11 @@
 #съставен от нечетни числа, да се намери минималната и максималната стойност на елементите, съставящи списъка. 
 #За списъка, съставен от четни числа, да се намери сумата и средно аритметичната стойност за елементите от списъка.
 
-'''n=int(input("Enter n "))
-list_1=[]
-list_2=[]
+n = int(input("Enter n: "))
+list_1 = []
+list_2 = []
 for i in range(n):
-    num=int(input(f"Enter {i+1}.number "))
+    num = int(input(f"Enter {i+1}.number "))
     if num%2!=0:
         if num%3==0:
             list_1.append(num)
@@ -15,15 +15,13 @@ for i in range(n):
         list_2.append(num)
 print(list_1)
 print(list_2)
-print("Minimalnata stoinost na purviq spisuk e ",min(list_1))
-print("Maksimalnata stoinost na purviq spisuk e ",max(list_1))
-suma=0
+print("Minimalnata stoinost na purviq spisuk e ", min(list_1))
+print("Maksimalnata stoinost na purviq spisuk e ", max(list_1))
+suma = 0
 for i in list_2:
     suma+=i
-print("Sumata na vtoriq spisuk e ",suma)
-print("Srednoaritmeticnoto na vtoriq spisuk e ",suma/len(list_2))'''
-
-
+print("Sumata na vtoriq spisuk e ", suma)
+print("Srednoaritmeticnoto na vtoriq spisuk e ", suma/len(list_2))
 
 
 #2. Да се състави програма на Python, която дефинира клас "GSM mobile devices",

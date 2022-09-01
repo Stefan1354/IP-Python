@@ -138,9 +138,9 @@ print(a[1])  #7
 print(a[-1]) #10
 print(a[-2]) #8
 
-a[3]=50
+a[3] = 50
 print(a)  #umesto 8 pise 50
-#a[10]=5
+#a[10] = 5
 #print(a) #indeks je van opsega elemenata liste
 print(len(a)) #5
 
@@ -313,9 +313,9 @@ for i in range(n):
     if lista[i]%2==0:
         brp+=1
         zbp+=lista[i]
-print("Broj parnih je ",brp)
-print("Zbir parnih je ",zbp)
-print("Aritmeticka sredina parnih je ",zbp/brp)
+print("Broj parnih je ", brp)
+print("Zbir parnih je ", zbp)
+print("Aritmeticka sredina parnih je ", zbp/brp)
 
 #2.nacin
 
@@ -330,9 +330,9 @@ for el in lista:
     if el%2==0:
         brp+=1
         zbp+=el
-print("Broj parnih je ",brp)
-print("Zbir parnih je ",zbp)
-print("Aritmeticka sredina parnih je ",zbp/brp)
+print("Broj parnih je ", brp)
+print("Zbir parnih je ", zbp)
+print("Aritmeticka sredina parnih je ", zbp/brp)
 
 #3.nacin
 

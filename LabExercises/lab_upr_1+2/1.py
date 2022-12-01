@@ -4,7 +4,7 @@ v intervala [1,1000], koito zavarshat na 7.'''
 brojac = 7
 while brojac<1001:
     print(brojac)
-    broja+=10
+    brojac+=10
 
 2. nacin
 
